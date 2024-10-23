@@ -8,12 +8,15 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #f4f4f4; /* Fallback color */
+            background-image: url('https://images.unsplash.com/photo-1556742031-c703d6f3553e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDB8fGZpbmUlMjBkZW5pbmd8ZW58MHx8fHwxNjA3ODk1MjM3&ixlib=rb-1.2.1&q=80&w=1080'); /* Random image */
+            background-size: cover; /* Cover the entire background */
+            background-position: center; /* Center the image */
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #9b3e30;
+            background-color: rgba(155, 62, 48, 0.8); /* Semi-transparent background for header */
             color: white;
             padding: 10px 0;
             text-align: center;
@@ -37,7 +40,7 @@
         }
         .menu, .reservation, .events {
             margin-bottom: 30px;
-            background-color: white;
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for sections */
             padding: 20px;
             border-radius: 8px;
         }
@@ -96,7 +99,7 @@
         <h2>Explore Our Menu</h2>
         <p>Enjoy a journey through authentic Indian flavors with our carefully curated dishes.</p>
         <div class="section-image">
-            <img src="/mnt/data/A_luxurious_Indian_fine_dining_restaurant_setting_.png" alt="Indian Food Menu">
+            <img src="https://images.unsplash.com/photo-1556742031-c703d6f3553e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDB8fGZpbmUlMjBkZW5pbmd8ZW58MHx8fHwxNjA3ODk1MjM3&ixlib=rb-1.2.1&q=80&w=1080" alt="Indian Food Menu">
         </div>
         <ul>
             <li>Butter Chicken</li>
@@ -113,7 +116,7 @@
         <h2>Make a Reservation</h2>
         <p>Book your table for an unforgettable fine dining experience.</p>
         <div class="section-image">
-            <img src="/mnt/data/A_luxurious_Indian_fine_dining_restaurant_setting_.png" alt="Restaurant Interior">
+            <img src="https://images.unsplash.com/photo-1556742031-c703d6f3553e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDB8fGZpbmUlMjBkZW5pbmd8ZW58MHx8fHwxNjA3ODk1MjM3&ixlib=rb-1.2.1&q=80&w=1080" alt="Restaurant Interior">
         </div>
         <button>Reserve Now</button>
         <p>Or call us at (555) 987-6543</p>
@@ -124,12 +127,12 @@
         <h2>Upcoming Events & Specials</h2>
         <p>Join us for Bollywood Nights, live music, and festive celebrations like Diwali and Holi.</p>
         <div class="section-image">
-            <img src="/mnt/data/A_luxurious_Indian_fine_dining_restaurant_setting_.png" alt="Bollywood Night Event">
+            <img src="https://images.unsplash.com/photo-1556742031-c703d6f3553e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDB8fGZpbmUlMjBkZW5pbmd8ZW58MHx8fHwxNjA3ODk1MjM3&ixlib=rb-1.2.1&q=80&w=1080" alt="Bollywood Night Event">
         </div>
         <button>Check Event Calendar</button>
     </section>
 
-    <!-- Contact Section with Image -->
+    <!-- Contact Section -->
     <section id="contact" class="contact">
         <h2>Contact Us</h2>
         <p><strong>Address:</strong> 456 Dream Street, Cleveland, OH 44114</p>
